@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const postRoutes = require("./routes/postRoutes");
+const axios = require("axios");
 const swaggerUi = require("swagger-ui-express");
 const swaggerJSDoc = require("swagger-jsdoc");
 const cron = require("node-cron");
